@@ -1,0 +1,30 @@
+{
+  "name": "cyber-nexus-elite-portfolio",
+  "version": "1.0.0",
+  "description": "High-end glassmorphic UI matrix interface with dynamic view switching orchestration pipelines.",
+  "private": true,
+  "author": "PVP_PRO",
+  "license": "MIT",
+  "homepage": ".",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "scripts": {
+    "prebuild": "echo '=== INITIALIZING MATRIX SYSTEM BUILD CONFIGURATION ==='",
+    "build": "mkdir -p dist && cp -r index.html assets vercel.json dist/ 2>/dev/null || (xcopy index.html dist\\ /E /I /Y && xcopy assets dist\\assets\\ /E /I /Y && xcopy vercel.json dist\\ /Y)",
+    "postbuild": "echo '=== SYSTEM BUILD COMPILED SUCCESSFULLY TO /DIST ==='",
+    "start": "echo 'Production Matrix Online. Point web root execution to index.html or target the static build distribution directly.'"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "keywords": [
+    "cyber-nexus",
+    "glassmorphism",
+    "pvp-pro-architecture",
+    "high-performance-ui"
+  ],
+  "bugs": {
+    "url": "https://github.com/PVP-PRO/cyber-nexus-core/issues"
+  }
+}
