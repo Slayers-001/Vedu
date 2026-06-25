@@ -96,7 +96,7 @@ export default function Home() {
       </main>
 
       <footer className="w-full py-16 text-center text-[10px] tracking-[0.5em] text-[#dcd7ca]/20 uppercase border-t border-[#f5f2eb]/5 relative z-20 bg-[#0b0a09]">
-        © 2026 ARCHIVE ENGINE // DESIGNED BY PVP_PRO // ALL HARDWARE DATA VALIDATED // Good friend of Sanvi I guess 
+        © 2026 ARCHIVE ENGINE // DESIGNED BY PVP_PRO // ALL HARDWARE DATA VALIDATED // Good friend of Vedika I guess 
       </footer>
     </div>
   );
