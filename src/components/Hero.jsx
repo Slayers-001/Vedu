@@ -15,7 +15,7 @@ export default function Hero() {
         </h2>
         
         <h1 className="global-reveal font-black tracking-tight text-[#f5f2eb] uppercase mb-10 select-none" style={{ fontSize: "var(--font-hero)", fontFamily: "var(--font-serif-display)", lineHeight: "0.9" }}>
-          SANVI RAI
+          Vedika Sharma
         </h1>
         
         <div className="global-reveal w-40 h-[1px] bg-gradient-to-r from-transparent via-[#dcd7ca]/30 to-transparent mx-auto my-10" />
