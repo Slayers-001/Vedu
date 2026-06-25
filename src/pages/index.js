@@ -62,7 +62,7 @@ export default function Home() {
   return (
     <div className="relative min-h-screen w-full bg-[#0b0a09] selection:bg-[#f5f2eb] selection:text-[#0b0a09] overflow-hidden">
       <Head>
-        <title>SANVI RAI // The Scholastic Archive</title>
+        <title>Vedika Sharma // The Scholastic Archive</title>
         <meta name="description" content="The digital chronicle of Sanvi Rai. Scholar, Archivist, and Athlete." />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.ico" />
