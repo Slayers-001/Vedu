@@ -1,23 +1,24 @@
 {
-  "name": "special-portfolio-engine",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "next": "^14.1.0",
-    "gsap": "^3.12.5",
-    "lucide-react": "^0.331.0"
-  },
-  "devDependencies": {
-    "tailwindcss": "^3.4.1",
-    "postcss": "^8.4.35",
-    "autoprefixer": "^10.4.17"
-  }
+	"name": "special-portfolio-engine",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"@vercel/analytics": "^1.4.1",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"next": "^14.1.0",
+		"gsap": "^3.12.5",
+		"lucide-react": "^0.331.0"
+	},
+	"devDependencies": {
+		"tailwindcss": "^3.4.1",
+		"postcss": "^8.4.35",
+		"autoprefixer": "^10.4.17"
+	}
 }
