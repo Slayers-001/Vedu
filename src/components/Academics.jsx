@@ -34,7 +34,7 @@ export default function Academics() {
       icon: <Feather className="w-5 h-5 text-[#f5f2eb] stroke-[1.5]" />,
       index: "01",
       title: "Marks",
-      desc: "IDK"
+      desc: "95.02% (def cheating kiya hoga)"
     },
     {
       icon: <Compass className="w-5 h-5 text-[#f5f2eb] stroke-[1.5]" />,
@@ -45,8 +45,8 @@ export default function Academics() {
     {
       icon: <Book className="w-5 h-5 text-[#f5f2eb] stroke-[1.5]" />,
       index: "03",
-      title: "Knowledge",
-      desc: "IDK HOW THIS BITCH KNOWS SO MUCH, BUT SHE DOES."
+      title: "Fav Thing",
+      desc: "Dog"
     }
   ];
 
