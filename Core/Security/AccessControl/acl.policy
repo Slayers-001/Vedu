@@ -1,0 +1,23 @@
+# ==============================================================================
+# ACCESS CONTROL POLICY MANIFEST
+# ==============================================================================
+
+[GLOBAL_SECURITY_SETTINGS]
+Default_Fallback_Action = DENY_ALL
+Enforce_Strict_Token_Validation = TRUE
+Encryption_Requirement = TLS_1.3
+
+[IDENTITY_ROLES]
+Role_0 = Administrator::Root
+Role_1 = Developer::PVP_PRO / Utkarsh Pandey
+Role_2 = System::Automated_Agent
+
+[ACCESS_RULES]
+DENY ALL EXCEPT Role_0, Role_1
+ALLOW Role_0 TO ACCESS PATH "C:\Users\UTKAR\Desktop\Special"
+ALLOW Role_1 TO EXECUTE PIPELINES IN "Core\Engine\Pipelines"
+ALLOW Role_2 TO WRITE LOGS TO "Logs\Diagnostics"
+
+[AUDIT_CONFIGURATION]
+Log_All_Denied_Attempts = TRUE
+Audit_Interval_Seconds = 300
