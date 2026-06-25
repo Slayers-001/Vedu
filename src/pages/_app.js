@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 import { useRouter } from 'next/router';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+import { Analytics } from '@vercel/analytics/next';
 
 // Register structural plugins at global bundle initialization
 if (typeof window !== 'undefined') {
@@ -43,6 +44,7 @@ export default function App({ Component, pageProps }) {
     <>
       {/* Global Style Injections & Component Render Loop Layout */}
       <Component {...pageProps} />
+      <Analytics />
     </>
   );
 }
