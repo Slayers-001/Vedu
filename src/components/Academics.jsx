@@ -46,7 +46,7 @@ export default function Academics() {
       icon: <Book className="w-5 h-5 text-[#f5f2eb] stroke-[1.5]" />,
       index: "03",
       title: "Fav Thing",
-      desc: "Dog"
+      desc: "Dog ( arnav patney - WOOF WOOF) AND OFC ME :P"
     }
   ];
 
